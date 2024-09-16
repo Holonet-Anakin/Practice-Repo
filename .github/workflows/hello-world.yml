@@ -3,7 +3,7 @@ on: [push]
 jobs:
   job1:
     name: This is my first job
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Write output message
         run: echo "Hello, GitHub actions!"
